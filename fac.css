@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 2vw;
+    text-shadow: .5rem .5rem .5rem rgb(229, 255, 0);
+    font-size: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border: 1rem inset rgb(255, 0, 0);
+    background-image: linear-gradient(to bottom right, rgb(255, 138, 138), rgba(255, 255, 255, 1));
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    word-spacing: 3rem;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+    text-shadow: .4rem .4rem .5rem rgba(4, 0, 255, 0.542);
+}
+
+p {
+    text-align: center;
+    font-size: 5.5vw;
+    word-spacing: .5rem;
+    text-shadow: .3rem .3rem .4rem yellow;
+}
+
+h3 {
+    text-align: center;
+    font-size: 5vw;
+    text-shadow: .3rem .3rem rgb(51, 255, 0);
+}
+
+.lkj {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+[alt="img1"] {
+    height: auto;
+    width: 50vw;
+}
+
+.wh {
+    text-align: center;
+    font-size: 3.5vw;
+    text-shadow: .5rem .5rem 1rem rgba(255, 26, 26, 0.713);
+}
+
+hr {
+    text-align: center;
+    margin: 0 auto;
+    height: 1vh;
+    width: 50%;
+    margin-bottom: 3vw;
+    box-shadow: .4rem .4rem 1rem rgb(174, 128, 128);
+}
+
+.info {
+    font-size: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vw;
+    text-shadow: .3rem .3rem 1rem rgba(255, 255, 124, 0.905);
+}
+
+.here {
+    margin-left: 4vw;
+    text-decoration: underline;
+    text-shadow: .5rem .5rem 1rem rgba(255, 26, 26, 0.713);
+    margin-bottom: 1vw;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.para {
+    margin-bottom: 2vw;
+    margin-left: 3vw;
+}
+
+a {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    text-decoration: none;
+    font-size: 4vw;
+    box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    font-weight: bold;
+    transition-duration: .5s;
+    text-shadow: .5rem .5rem 1rem rgb(208, 255, 0);
+}
+
+h3>a:hover {
+    box-shadow: -.5rem -.5rem 1rem rgba(0, 0, 0, 0.419), .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    text-shadow: .5rem .5rem 1rem rgb(255, 0, 255);
+    font-size: 5vw;
+    letter-spacing: .1rem;
+}
+
+.th {
+    text-shadow: .5rem .5rem .5rem rgb(255, 0, 0);
+}
